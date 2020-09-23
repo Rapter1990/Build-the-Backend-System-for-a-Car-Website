@@ -122,6 +122,9 @@ public class CarControllerTest {
          *   when the `delete` method is called from the Car Controller. This
          *   should utilize the car from `getCar()` below.
          */
+        mvc.perform(delete(new URI("/cars/1"))
+                .accept(MediaType.APPLICATION_JSON_UTF8))
+                .andExpect(status().isNoContent());
     }
 
     /**
