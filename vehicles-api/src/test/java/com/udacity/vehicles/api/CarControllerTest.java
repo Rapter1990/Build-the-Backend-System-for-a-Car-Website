@@ -113,7 +113,7 @@ public class CarControllerTest {
          *   a vehicle by ID. This should utilize the car from `getCar()` below.
          */
         Car car = getCar();
-        mvc.perform(get(new URI("/cars/1"))
+        mvc.perform(get(new URI("/cars/1")) // get("/cars/{id}", car.getId()
                 .contentType(MediaType.APPLICATION_JSON_UTF8)
                 .accept(MediaType.APPLICATION_JSON_UTF8))
                 .andExpect(status().isOk());
