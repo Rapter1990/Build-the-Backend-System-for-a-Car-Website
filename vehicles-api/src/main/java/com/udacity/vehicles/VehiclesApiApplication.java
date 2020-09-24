@@ -66,3 +66,69 @@ public class VehiclesApiApplication {
     }
 
 }
+
+
+// POST
+
+/*
+
+{
+  "condition": "NEW",
+  "createdAt": "2019-09-17T14:34:28.043Z",
+  "details": {
+    "body": "sedan",
+    "engine": "3.6L V6",
+    "externalColor": "white",
+    "fuelType": "Gasoline",
+    "manufacturer": {
+      "code": 101,
+      "name": "Chevrolet"
+    },
+    "mileage": 32280,
+    "model": "Impala",
+    "modelYear": 2018,
+    "numberOfDoors": 4,
+    "productionYear": 2018
+  },
+  "location": {
+    "lat": 0,
+    "lon": 0
+  }
+}
+
+*/
+
+// GET (id = 1)
+
+// PUT (id = 1)
+
+/*
+
+{
+  "condition": "NEW",
+  "createdAt": "2019-09-17T14:34:28.043Z",
+  "details": {
+    "body": "sedan",
+    "engine": "3.6L V6",
+    "externalColor": "white",
+    "fuelType": "Gasoline",
+    "manufacturer": {
+      "code": 101,
+      "name": "Chevrolet"
+    },
+    "mileage": 32280,
+    "model": "Impala",
+    "modelYear": 2018,
+    "numberOfDoors": 4,
+    "productionYear": 2018
+  },
+  "location": {
+    "lat": 0,
+    "lon": 0
+  }
+}
+
+*/
+
+
+// DELETE (id = 1)
