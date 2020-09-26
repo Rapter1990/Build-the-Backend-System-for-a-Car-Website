@@ -105,27 +105,34 @@ public class VehiclesApiApplication {
 /*
 
 {
-  "condition": "NEW",
-  "createdAt": "2019-09-17T14:34:28.043Z",
-  "details": {
-    "body": "sedan",
-    "engine": "3.6L V6",
-    "externalColor": "white",
-    "fuelType": "Gasoline",
-    "manufacturer": {
-      "code": 101,
-      "name": "Chevrolet"
+    "id": 1,
+    "createdAt": "2020-09-12T20:39:00.48914",
+    "modifiedAt": "2020-09-12T20:39:00.48914",
+    "condition": "NEW",
+    "details": {
+        "body": "hatchback",
+        "model": "Impala",
+        "manufacturer": {
+            "code": 101,
+            "name": "Chevrolet"
+        },
+        "numberOfDoors": 2,
+        "fuelType": "Gasoline",
+        "engine": "3.6L V6",
+        "mileage": 32280,
+        "modelYear": 2018,
+        "productionYear": 2018,
+        "externalColor": "white"
     },
-    "mileage": 32280,
-    "model": "Impala",
-    "modelYear": 2018,
-    "numberOfDoors": 4,
-    "productionYear": 2018
-  },
-  "location": {
-    "lat": 0,
-    "lon": 0
-  }
+    "location": {
+        "lat": 40.73061,
+        "lon": -73.935242,
+        "address": null,
+        "city": null,
+        "state": null,
+        "zip": null
+    },
+    "price": null
 }
 
 */
